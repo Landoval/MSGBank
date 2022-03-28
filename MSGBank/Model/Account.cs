@@ -1,11 +1,11 @@
-﻿using MSGBank.Data.AccountActions;
+﻿using MSGBank.Model.AccountActions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MSGBank.Data
+namespace MSGBank.Model
 {
     public class Account
     {

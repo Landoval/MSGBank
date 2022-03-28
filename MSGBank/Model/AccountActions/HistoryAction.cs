@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MSGBank.Data.AccountActions
+namespace MSGBank.Model.AccountActions
 {
     public class HistoryAction : AccountAction
     {
@@ -12,7 +12,7 @@ namespace MSGBank.Data.AccountActions
         private Account Source;
         public HistoryAction(Account source, User user) : base(DateTime.Now, user)
         {
-            Message = $"HistoryAction User: {User} Datetime {DateTime}";
+            Message = $"HistoryAction User: {User} DateTime {DateTime}";
             Source = source;
         }
         public override object Evaluate()

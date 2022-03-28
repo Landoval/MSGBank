@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MSGBank.Data
+namespace MSGBank.Model
 {
     public class Customer
     {

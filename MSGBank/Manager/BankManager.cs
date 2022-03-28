@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MSGBank.Data;
-using MSGBank.Data.AccountActions;
+using MSGBank.Model;
+using MSGBank.Model.AccountActions;
 using System;
 using System.Collections.Generic;
 using System.Linq;

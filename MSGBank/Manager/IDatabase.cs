@@ -1,4 +1,4 @@
-﻿using MSGBank.Data;
+﻿using MSGBank.Model;
 using System;
 
 namespace MSGBank.Manager

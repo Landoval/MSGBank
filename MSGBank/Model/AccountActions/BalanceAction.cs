@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MSGBank.Data.AccountActions
+namespace MSGBank.Model.AccountActions
 {
     public class BalanceAction : AccountAction
     {
@@ -13,7 +13,7 @@ namespace MSGBank.Data.AccountActions
         public BalanceAction(Account source, User user) : base(DateTime.Now, user)
         {
             Source = source;
-            Message = $"BalanceAction User: {User} Datetime {DateTime}";
+            Message = $"BalanceAction User: {User} DateTime {DateTime}";
         }
         public override object Evaluate()
         {

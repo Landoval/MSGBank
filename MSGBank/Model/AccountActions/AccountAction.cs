@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace MSGBank.Data.AccountActions
+namespace MSGBank.Model.AccountActions
 {
     public abstract class AccountAction
     {
@@ -15,9 +15,9 @@ namespace MSGBank.Data.AccountActions
         [JsonIgnore]
         public User User { get; private set; }
 
-        public AccountAction(DateTime dateTime, User user)
+        public AccountAction(DateTime DateTime, User user)
         {
-            DateTime = dateTime;
+            DateTime = DateTime;
             User = user;
         }
         public abstract object Evaluate();
