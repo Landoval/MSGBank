@@ -1,0 +1,25 @@
+Msg Bank Test
+start  19:20
+Conzept steht 20:20
+Implementierung Complete 22:50
+Test und bugfix 24:00
+
+project .net 5
+microsoft visual studio
+
+Pattern and techs
+
+injection (2 livetimes)
+controler
+Rest (Authentification / signature?)
+Generics
+UnitTest
+
+
+Dinge die ich anders machen würde:
+Authentifizierung (JWT / Signatur)
+weitere Unittests
+Fehlermeldungen können eine sicherheitslücke sein
+kleinere commits
+persitierung (Datenbank)
+AddCustomer
