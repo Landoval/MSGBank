@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using MSGBank.Data;
 using MSGBank.Manager;
+using MSGBank.Model;
 using NSubstitute;
 using NUnit.Framework;
 using System;

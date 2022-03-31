@@ -15,9 +15,9 @@ namespace MSGBank.Model.AccountActions
         [JsonIgnore]
         public User User { get; private set; }
 
-        public AccountAction(DateTime DateTime, User user)
+        public AccountAction(DateTime dateTime, User user)
         {
-            DateTime = DateTime;
+            DateTime = dateTime;
             User = user;
         }
         public abstract object Evaluate();
